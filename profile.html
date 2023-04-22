@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <title>Profile</title>
+    <link rel="icon" type="image/x-icon" href="/resources/Logo.png">
+</head>
+<body>
+    <span class="container">
+        <nav>
+            <div class="nav-top">
+                <img src="resources/4.png" width="150px">
+                <div class="rank">L</div>
+                <h2>User_Y1</h2>
+            </div>
+            <div class="nav-bottom">
+                <a href="/index.html" target="_blank">Practice</a>
+                <a href="/about.html" target="_blank">About</a>
+                <a href="/profile.html" >Profile</a>
+            </div>
+            <div class="webname">
+                typemini.in
+            </div>
+        </nav>
+        <main>
+            <div class="display-data profile-display">
+                <div class="display-data-top">
+                    <p class="best-typing-speed">Best Speed : 00.00 WPM</p>
+                    <p class="best-typing-accuracy">Best Accuracy : 100%</p>
+                </div>
+                <div class="display-data-bottom">
+                    <p class="avg-typing-speed">Average Speed : 00.00 WPM</p>
+                    <p class="avg-typing-accuracy">Average Accuracy : 100%</p>
+                </div>
+                
+            </div>
+            <div class="chart" id="chartDiv" style="width:100%; height:50vh; margin:0 auto; margin-top:10vh; margin-left: -23vh;"></div>
+            <div class="legend-container">
+                <span class="accuracy-legend">Accuracy</span><span class="speed-legend">Speed</span>
+                <span class="reset-data">Reset Data</span>
+            </div>
+        </main>
+        
+    </span>
+    
+</body>
+<script src="https://code.jscharting.com/2.9.0/jscharting.js"></script>
+<script src="chart.js"></script>
+</html>
